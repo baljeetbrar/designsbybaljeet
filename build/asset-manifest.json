@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/designsbybaljeet/static/css/main.116229d7.css",
+    "main.js": "/designsbybaljeet/static/js/main.c23f9d80.js",
+    "static/js/787.7c043bc5.chunk.js": "/designsbybaljeet/static/js/787.7c043bc5.chunk.js",
+    "index.html": "/designsbybaljeet/index.html",
+    "main.116229d7.css.map": "/designsbybaljeet/static/css/main.116229d7.css.map",
+    "main.c23f9d80.js.map": "/designsbybaljeet/static/js/main.c23f9d80.js.map",
+    "787.7c043bc5.chunk.js.map": "/designsbybaljeet/static/js/787.7c043bc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.116229d7.css",
+    "static/js/main.c23f9d80.js"
+  ]
+}

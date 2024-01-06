@@ -50,8 +50,8 @@ The Weather Project fetches weather data for specified cities, providing current
 
 Feel free to reach out to me for collaboration, feedback, or just to say hello!
 
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** [Your Email Address]
-- **Portfolio Website:** [Your Portfolio Website]
+- **LinkedIn:** https://www.linkedin.com/in/baljeetbrar1
+- **Email:** baljeetbrar1@outlook.com
+- **Portfolio Website:** https://baljeetbrar.github.io/designsbybaljeet
 
 
