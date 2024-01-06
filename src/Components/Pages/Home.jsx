@@ -35,7 +35,7 @@ const Home = () => {
           <img src="images/wrapper-image.jpg" alt="" />
         </Col>
       </Row>
-      <Footer pdfUrl={pdfUrl} />
+      
     </Container>
   )
 }
