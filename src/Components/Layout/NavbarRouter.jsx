@@ -9,6 +9,7 @@ import Contact from '../Pages/Contact'
 import Projects from '../Pages/Projects'
 import Nopage from '../Pages/Nopage'
 import About from '../Pages/About'
+import Footer from '../Pages/Footer'
 
 const NavbarRouter = () => {
   return (
@@ -26,6 +27,7 @@ const NavbarRouter = () => {
             </Routes>
           </div>
         </div>
+          <Footer/>
       </HashRouter>
      
     </>

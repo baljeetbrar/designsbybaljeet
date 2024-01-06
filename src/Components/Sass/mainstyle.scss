@@ -183,3 +183,25 @@
     }
     
 }
+
+
+
+
+// Footer wrapper css Start
+
+.footer_wrapper{
+    color: white;
+    background-color: black;
+    padding: 60px 0;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .footer-header{
+        color: $special-color;
+    }
+    .footer_list{
+        font-size: 40px;
+        gap: 20px;
+    }
+}

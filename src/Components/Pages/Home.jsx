@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
+import Footer from './Footer';
 
 const Home = () => {
 
@@ -34,6 +35,7 @@ const Home = () => {
           <img src="images/wrapper-image.jpg" alt="" />
         </Col>
       </Row>
+      <Footer pdfUrl={pdfUrl} />
     </Container>
   )
 }
