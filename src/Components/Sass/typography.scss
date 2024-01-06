@@ -1,0 +1,56 @@
+$primary: #DEB786;;
+$secondary: #9b885e;
+$bg-blue: #007bff;
+
+$font-light : #EEE5E9;
+
+$special-color:  #EFC88B;
+
+$bg-dark : #CF5C36;
+$bg-light: #EEE5E9;
+
+
+a{
+    text-decoration: none !important;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-bold{
+    font-weight: 800;
+}
+.bg-blue{
+    color: white;
+    background-color: $bg-blue;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.font-special-light{
+    color: $font-light;
+}
+.font-dark{
+    color: $bg-dark;
+}
+
+.bg-light{
+    background-color: $font-light;
+}
+.bg-dark{
+    background-color: $bg-dark ;
+}
+.full-width{
+    width: 100%;
+}
