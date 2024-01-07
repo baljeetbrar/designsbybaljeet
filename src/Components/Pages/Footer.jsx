@@ -3,6 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
+  const pdfUrl = 'images/Baljeet_React_Developer_Resume.pdf';
   return (
     <footer className="footer_wrapper">
       <Container>
@@ -24,7 +25,9 @@ const Footer = () => {
           </Col>
           <Col xs={12} sm={6} md={3}>
             <h3 className='text-bold footer-header'>Resume</h3>
-            <p>Download my <a  target="_blank" rel="noopener noreferrer" download>resume</a></p>
+            <p>Download my <a href={pdfUrl} download>
+              <button className='text-left download-cv'>Resume</button>
+            </a></p>
           </Col>
           <Col xs={12} sm={6} md={3}>
             <h3 className='text-bold footer-header'>Portfolio Links</h3>

@@ -19,6 +19,7 @@ const Home = () => {
   },[currentWord, words]);
 
   const pdfUrl = 'images/Baljeet_React_Developer_Resume.pdf';
+  
   return (
     <Container>
       <Row className='homepage-wrapper d-flex '>

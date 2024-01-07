@@ -33,17 +33,20 @@ ul {
   text-transform: uppercase;
 }
 
-.text-green {
-  color: #55E6A5;
+.font-special-light {
+  color: #EEE5E9;
 }
 
-.bg-green {
-  color: white;
-  background-color: #55E6A5;
+.font-dark {
+  color: #CF5C36;
 }
 
-.bg-navy {
-  background-color: #6d6e6e;
+.bg-light {
+  background-color: #EEE5E9;
+}
+
+.bg-dark {
+  background-color: #CF5C36;
 }
 
 .full-width {
@@ -51,20 +54,56 @@ ul {
 }
 
 .projects-list {
+  cursor: pointer;
   padding-left: 30px;
+  margin-left: 40px;
+}
+.projects-list li {
+  padding-left: 35px;
+  margin-bottom: 35px;
 }
 
 .project-link {
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-  transition: all 0.3s ease;
+  display: block;
   position: relative;
+  font-size: 18px;
+  padding: 10px;
+  width: 250px;
+  margin: 0px 15px 10px 0px;
+  color: #EFC88B;
+  background: #CF5C36;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  transform-style: preserve-3d;
+  transform: rotateX(45deg);
+  transform: perspective(877px) rotateX(10deg) skew(-1deg) translate(0, 0);
+  box-shadow: -24px 20px 14px #CF5C36;
+  transition: all 0.5s ease-in-out;
 }
-
+.project-link::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  left: -20px;
+  top: 10px;
+  background: #EEE5E9;
+  transform: rotate(0deg) skewY(-45deg);
+}
+.project-link::after {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: -6px;
+  height: 12px;
+  width: 100%;
+  transform: rotate(0deg) skewX(-45deg);
+  background: #EFC88B;
+}
 .project-link:hover {
-  color: #b7b6b6;
+  transform: perspective(1000px) skew(25deg) translate(20px, -20px);
+  box-shadow: -50px 50px 30px #CF5C36;
+  color: #EEE5E9;
 }
 
 .project-link::before {
@@ -74,7 +113,7 @@ ul {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #55E6A5;
+  background-color: #EEE5E9;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;

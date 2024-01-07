@@ -33,17 +33,20 @@ ul {
   text-transform: uppercase;
 }
 
-.text-green {
-  color: #55E6A5;
+.font-special-light {
+  color: #EEE5E9;
 }
 
-.bg-green {
-  color: white;
-  background-color: #55E6A5;
+.font-dark {
+  color: #CF5C36;
 }
 
-.bg-navy {
-  background-color: #6d6e6e;
+.bg-light {
+  background-color: #EEE5E9;
+}
+
+.bg-dark {
+  background-color: #CF5C36;
 }
 
 .full-width {

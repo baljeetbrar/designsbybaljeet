@@ -25,14 +25,14 @@ const NavbarLink = () => {
           <span><LuFolderOpenDot /></span>
           <strong className='nav-name'>Projects</strong>
           </Link>
-          <Link to='/projects' className='nav-list-item'> 
+          <Link to='/skills' className='nav-list-item'> 
           <span><GiSkills /></span>
           <strong className='nav-name'>Skills</strong>
           </Link>
-          <Link to='/projects' className='nav-list-item'>
+          {/* <Link to='/contact' className='nav-list-item'>
           <span><MdConnectWithoutContact /></span>
           <strong className='nav-name'>Contact</strong>
-          </Link>
+          </Link> */}
       </Nav>
     </Navbar>
   );
