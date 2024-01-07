@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio! This repository showcases my skills, projects, and learning journey as a [Your Profession or Title]. :- https://baljeetbrar.github.io/designsbybaljeet
+Welcome to my portfolio! This repository showcases my skills, projects, and learning journey as a React Developer. :- https://baljeetbrar.github.io/designsbybaljeet
 
 ## About Me
 
