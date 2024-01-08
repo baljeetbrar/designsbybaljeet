@@ -12,7 +12,7 @@ const Projects = () => {
             <Link to="https://baljeetbrar.github.io/chessypizza" className="project-link text-bold" target='_blank'>Chessy Pizza</Link>
           </li>
           <li>
-            <Link to="https://baljeetbrar.github.io/reactprojects/#/newsweb" className="project-link text-bold" target='_blank'>News App</Link>
+            <Link to="https://www.brighthope.org" className="project-link text-bold" target='_blank'>Bright Of Hope</Link>
           </li>
           <li>
             <Link to="https://baljeetbrar.github.io/reactprojects/#/loan" className="project-link text-bold"
@@ -21,6 +21,9 @@ const Projects = () => {
           <li>
             <Link to="https://baljeetbrar.github.io/reactprojects/#/weatherforecast" className="project-link text-bold"
             target='_blank'>Weather App</Link>
+          </li>
+          <li>
+            <Link to="https://baljeetbrar.github.io/reactprojects/#/newsweb" className="project-link text-bold" target='_blank'>News App</Link>
           </li>
         </ol>
         </Col>
