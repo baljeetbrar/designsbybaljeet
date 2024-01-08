@@ -10,7 +10,7 @@ const Footer = () => {
         <Row>
           <Col xs={12} sm={6} md={3}>
             <h3 className='text-bold footer-header'>Contact Information</h3>
-            <address>
+            <address className='contact-section'>
               <p className='text-bold'> Baljeet Singh</p>
               <p>Email: <a href="mailto:baljeetbrar1@outlook.com">baljeetbrar1@outlook.com</a></p>
               <p>Phone: <a href="tel:(647) 466-2102">(647) 466-2102</a></p>

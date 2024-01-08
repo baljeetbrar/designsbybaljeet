@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const skillsData = [
@@ -10,44 +10,43 @@ const skillsData = [
   { header: 'Design & Creative Tools', skills: ['Adobe Illustrator', 'Photoshop', 'Microsoft Office 365', 'Adobe XD', 'Adobe Creative Cloud']}
 ];
 
+const Divider = () => (
+    <Col xs={1} className="divider"></Col>
+  );
+
 const Skills = () => {
+
   return (
     <Container>
       <Row className={`skills-data d-flex flex-row justify-content-center `}>
         {skillsData.map((objData, index) => {
-          console.log('Index:', index); // Log the index
           return (
-            <React.Fragment key={index}>
+            <React.Fragment key={index} className="skill-section">
               {(index)% 2 === 0 ? (
                 <>
-                  <Col xs={6} className="data-wrapper">
+                  <Col xs={5} className={`data-wrapper left-column`}>
                     <ul className="skills-row">
                       <li>
-                        <h3>{objData.header}</h3>
-                        <ul className='d-flex flex-column'>
+                        <h5 className='font-dark text-bold skills-head'>{objData.header}</h5>
+                        <ul className='d-flex flex-column skill-data'>
                           {objData.skills.map((techList, techIndex) => (
-                            <li key={techIndex}>{techList}</li>
+                            <li key={techIndex} className='skills-list'>{techList}</li>
                           ))}
                         </ul>
                       </li>
                     </ul>
                   </Col>
-                  <Col xs={6} className=" right-divider">
-                   { /* Right Side Column */}
-                  </Col>
+                  <Divider />
                 </>
               ) : (
                 <>
-                  <Col xs={6} className=" left-divider">
-                   {/* Left Side Column */}
-                  </Col>
-                  <Col xs={6}>
-                    <ul>
+                  <Col xs={5} className={`data-wrapper right-column`}>
+                    <ul className="skills-row">
                       <li>
-                        <h3>{objData.header}</h3>
-                        <ul className='d-flex flex-column'>
+                        <h5 className='font-dark text-bold skills-head'>{objData.header}</h5>
+                        <ul className='d-flex flex-column skill-data'>
                           {objData.skills.map((techList, techIndex) => (
-                            <li key={techIndex}>{techList}</li>
+                            <li key={techIndex} className='skills-list'>{techList}</li>
                           ))}
                         </ul>
                       </li>

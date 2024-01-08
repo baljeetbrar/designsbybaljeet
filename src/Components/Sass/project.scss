@@ -4,6 +4,7 @@
     cursor: pointer;
     padding-left: 30px;
     margin-left: 40px;
+    width: 350px;
 
     li{
       padding-left: 35px;
@@ -17,7 +18,7 @@
     position: relative;
     font-size: 18px;
     padding: 10px;   
-    width: 250px;
+    width: 100%;
     margin: 0px 15px 10px 0px;
     color: $special-color;
     background: $bg-dark;

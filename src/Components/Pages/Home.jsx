@@ -19,21 +19,22 @@ const Home = () => {
   },[currentWord, words]);
 
   const pdfUrl = 'images/Baljeet_React_Developer_Resume.pdf';
-  
+
   return (
     <Container>
       <Row className='homepage-wrapper d-flex '>
       <Col md={6} xs={12}> 
           <div className='my-information text-center'>
           <h1 className='text-bold uppercase text-left name-header '>hi, i'm Baljeet <br/> Creative <strong className="font-dark word-transition">{currentWord}</strong></h1>
-            <p className='text-left'>I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+            <p className='text-left home-text'>I'm a passionate UI/UX designer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
             <a href={pdfUrl} download>
               <button className='text-left download-cv'>Download CV</button>
             </a>
           </div>
         </Col>  
-        <Col className='image-wrapper' md={6} xs={12}> 
-          <img src="images/wrapper-image.jpg" alt="" />
+        <Col className='image-wrapper d-md-block d-none' md={6} xs={12}> 
+          <img src="images/wrapper-image.jpg" alt="home-wrapper" />
+          {/* <img className="w-100" src="https://baljeetbrar.github.io/designsbybaljeet/images/wrapper-image.jpg" alt="home-wrapper" /> */}
         </Col>
       </Row>
       
