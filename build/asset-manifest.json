@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/designsbybaljeet/static/css/main.2dd5afc2.css",
-    "main.js": "/designsbybaljeet/static/js/main.88042ab5.js",
+    "main.js": "/designsbybaljeet/static/js/main.39928a6b.js",
     "static/js/787.7c043bc5.chunk.js": "/designsbybaljeet/static/js/787.7c043bc5.chunk.js",
     "index.html": "/designsbybaljeet/index.html",
     "main.2dd5afc2.css.map": "/designsbybaljeet/static/css/main.2dd5afc2.css.map",
-    "main.88042ab5.js.map": "/designsbybaljeet/static/js/main.88042ab5.js.map",
+    "main.39928a6b.js.map": "/designsbybaljeet/static/js/main.39928a6b.js.map",
     "787.7c043bc5.chunk.js.map": "/designsbybaljeet/static/js/787.7c043bc5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2dd5afc2.css",
-    "static/js/main.88042ab5.js"
+    "static/js/main.39928a6b.js"
   ]
 }

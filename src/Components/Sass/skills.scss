@@ -16,6 +16,7 @@
       transform-origin: 100% 50%;
       clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
       background-color: rgba(255, 255, 255, 0.457);
+      margin-bottom: 20px;
       
     }
     .skills-row {
@@ -29,6 +30,14 @@
     }
     .skill-section{
         position: relative;
+    }
+    .skills-list {
+      &:not(:last-child) {
+        &::after {
+          content: ",";
+          margin-right: 5px; // Adjust as needed for spacing
+        }
+      }
     }
   }
   

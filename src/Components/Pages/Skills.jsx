@@ -11,7 +11,7 @@ const skillsData = [
 ];
 
 const Divider = () => (
-    <Col xs={1} className="divider"></Col>
+    <Col xs={1} className="divider d-none d-md-block "></Col>
   );
 
 const Skills = () => {
@@ -24,7 +24,7 @@ const Skills = () => {
             <React.Fragment key={index} className="skill-section">
               {(index)% 2 === 0 ? (
                 <>
-                  <Col xs={5} className={`data-wrapper left-column`}>
+                  <Col xs={9} md={5} className={`data-wrapper left-column`}>
                     <ul className="skills-row">
                       <li>
                         <h5 className='font-dark text-bold skills-head'>{objData.header}</h5>
@@ -40,7 +40,7 @@ const Skills = () => {
                 </>
               ) : (
                 <>
-                  <Col xs={5} className={`data-wrapper right-column`}>
+                  <Col xs={9} md={5} className={`data-wrapper right-column`}>
                     <ul className="skills-row">
                       <li>
                         <h5 className='font-dark text-bold skills-head'>{objData.header}</h5>

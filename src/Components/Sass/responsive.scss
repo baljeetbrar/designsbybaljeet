@@ -1,6 +1,6 @@
 @media only screen and (max-width: 464px){
     .nav-sidebar{
-        width: 180px !important;
+        width: 140px !important;
     
         & .navbar-brand{
             margin-top: 0px;
@@ -8,14 +8,68 @@
         }
     }
     .nav-list-item{
-        padding: 4px 16px !important; 
+        padding: 3px 8px !important; 
+        font-size: 14px;
         margin-bottom: 20px ;
 
         span{
-            font-size: 18px !important;
-            padding: 3px 10px !important;
+            font-size: 13px !important;
+            padding: 4px 10px !important;
         }
     }
+
+    .about-section-heading{
+        & h5{
+            font-size: 14px;
+        }
+        & h1{
+            font-size: 16px ;
+        }
+    }
+    .about-section-details {
+        .about-icon{
+            font-size: 14px !important;
+        }
+        .about-me-header {
+            font-size: 14px;
+        }
+        .about-des{
+            font-size: 12px;
+        }
+    }
+    .about-image-section{
+        .my-img{
+            padding: 0px 18px;
+            margin-top: 25px;
+            margin-left: -2px;
+        }
+        
+        &::before{
+            width: 100px !important;
+            height: 100px !important;
+            top: -8px !important;
+            right: 3px;
+        }
+    }
+    .experience {
+        padding: 6px 0px !important;
+        width: 145px !important;
+        right: 2px !important;
+        bottom: 22px !important;
+
+        .exp-icon{
+            left: 18px !important;
+            font-size: 13px !important;
+            top: 2px !important;
+            padding: 0 2px !important;
+        }
+        .experience-years{
+            font-size: 11px;
+        }
+    }
+
+
+
     .projects-list {
         width: 200px !important;
         padding-left: 12px;
@@ -24,6 +78,11 @@
             font-size: 12px;
         }
     }
+
+
+
+
+
     .skills-data{
         .skills-head{
             font-size: 13px;
@@ -41,20 +100,21 @@
 
 @media only screen and (min-width: 465px) and (max-width: 576px){
     .nav-sidebar{
-        width: 180px !important;
+        width: 140px !important;
     
         & .navbar-brand{
             margin-top: 0px;
-            font-size: 22px !important;
+            font-size: 18px !important;
         }
     }
     .nav-list-item{
-        padding: 6px 20px !important; 
+        padding: 3px 8px !important; 
+        font-size: 14px;
         margin-bottom: 20px ;
 
         span{
-            font-size: 18px !important;
-            padding: 5px 10px !important;
+            font-size: 13px !important;
+            padding: 4px 10px !important;
         }
     }
     .name-header{
@@ -92,30 +152,59 @@
             font-size: 13px;
         }
     }
-    .my-img{
-        width: 65%;
+
+    .about-section-heading{
+        & h5{
+            font-size: 17px;
+        }
+        & h1{
+            font-size: 19px ;
+        }
     }
-    .about-image-section::before{
-        top: -30px;
-        right: 45px;
-        width: 140px !important;
-        height: 140px !important;
+    .about-section-details {
+        .about-icon{
+            font-size: 16px !important;
+        }
+        .about-me-header {
+            font-size: 16px;
+        }
+        .about-des{
+            font-size: 13px;
+        }
+    }
+    .about-image-section{
+        .my-img{
+            padding: 0px 40px;
+            margin-top: 45px;
+            margin-left: -3px;
+        }
+        
+        &::before{
+            width: 130px !important;
+            height: 130px !important;
+            top: -8px !important;
+            right: 6px;
+        }
     }
     .experience {
-        padding: 11px 6px !important;
-        width: 210px !important;
-        right: 50px !important;
-        bottom: -16px !important;
+        padding: 12px 0px !important;
+        width: 190px !important;
+        right: 9px !important;
+        bottom: 24px !important;
 
         .exp-icon{
-            font-size: 16px !important;
-            left: 30px !important;
-            top: 5px !important;
+            left: 20px !important;
+            font-size: 18px !important;
+            top: 2px !important;
+            padding: 0 4px !important;
         }
         .experience-years{
-            font-size: 14px !important;
+            font-size: 13px;
         }
     }
+
+
+
     .skills-data{
         .skills-head{
             font-size: 13px;
@@ -168,48 +257,54 @@
             font-size: 20px;
         }
     }
-    .about-section-details{
-        .about-des{
-            font-size: 15px ;
-            padding-inline: 0 80px;
+    .about-section-heading{
+        & h1{
+            font-size: 20px ;
         }
+    }
+    .about-section-details {
         .about-icon{
-                font-size: 24px !important;
+            font-size: 18px !important;
         }
-        .about-me-header{
-            font-size: 16px !important;
+        .about-me-header {
+            font-size: 18px;
+        }
+        .about-des{
+            font-size: 14px;
         }
     }
-    .about-header{
-        font-size: 28px !important;
-    }
-    .about-section-details::before{
-        display: none !important;
-    }
-    .my-img{
-        width: 75%;
-    }
-    .about-image-section::before{
-        top: -30px;
-        right: 45px;
-        width: 160px !important;
-        height: 160px !important;
+    .about-image-section{
+        .my-img{
+            padding: 0px 75px;
+            margin-top: 40px;
+            margin-left: -14px;
+        }
+        
+        &::before{
+            width: 130px !important;
+            height: 130px !important;
+            top: -8px !important;
+            right: 50px;
+        }
     }
     .experience {
-        padding: 11px 6px !important;
-        width: 270px !important;
-        right: 50px !important;
-        bottom: -16px !important;
+        width: 230px !important;
+        right: 60px !important;
+        bottom: 30px !important;
 
         .exp-icon{
-            font-size: 20px !important;
-            left: 44px !important;
-            top: 5px !important;
+            left: 22px !important;
+            font-size: 24px !important;
         }
         .experience-years{
-            font-size: 17px !important;
+            font-size: 15px;
         }
     }
+
+
+
+
+
     .skills-data{
         .skills-head{
             font-size: 15px;
@@ -238,37 +333,54 @@
         padding: 6px 18px;
         margin-bottom: 10px;
     }
-    .about-section-details{
-        
-        .about-des{
-            font-size: 18px;
-            padding-inline: 0 80px;
+   
+    .about-section-heading{
+        & h1{
+            font-size: 25px ;
         }
-        .about-icon{
-                font-size: 24px !important;
-        }
-        .about-me-header{
-            font-size: 20px !important;
-        } 
     }
-    .my-img{
-        width: 80%;
+    .about-section-details {
+        .about-icon{
+            font-size: 22px !important;
+        }
+        .about-me-header {
+            font-size: 22px;
+        }
+        .about-des{
+            font-size: 14px;
+        }
+    }
+    .about-image-section{
+        .my-img{
+            padding: 0px 100px;
+            margin-top: 40px;
+            margin-left: -64px;
+        }
+        
+        &::before{
+            width: 130px !important;
+            height: 130px !important;
+            top: -8px !important;
+            right: 110px;
+        }
     }
     .experience {
-        padding: 11px 6px !important;
-        width: 300px !important;
-        right: 34px !important;
-        bottom: -16px !important;
+        width: 230px !important;
+        right: 60px !important;
+        bottom: 30px !important;
 
         .exp-icon{
-            font-size: 22px !important;
-            left: 54px !important;
-            top: 5px !important;
+            left: 22px !important;
+            font-size: 24px !important;
         }
         .experience-years{
-            font-size: 20px;
+            font-size: 17px;
         }
     }
+
+
+
+
 
     .footer_wrapper{
         text-align: center;
@@ -286,12 +398,7 @@
             font-size: 32px ;
         }
     }
-    .about-image-section::before{
-        top: -30px;
-        right: 45px;
-        width: 180px !important;
-        height: 180px !important;
-    }
+    
     .skills-data{
         .skills-head{
             font-size: 17px;
@@ -304,24 +411,50 @@
 }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .about-image-section {
+    .about-section-heading{
+        & h1{
+            font-size: 27px ;
+        }
+    }
+    .about-section-details {
         .about-icon{
-            font-size: 30px;
-            padding: 2px 8px;
+            font-size: 24px !important;
         }
-        .about-me-header{
-            font-size: 20px !important;
+        .about-me-header {
+            font-size: 24px;
         }
+        .about-des{
+            font-size: 15px;
+        }
+    }
+    .about-image-section{
+        .my-img{
+            padding: 0px 36px;
+            margin-top: -30px;
+        }
+        
         &::before{
-            display: none;
+            width: 145px !important;
+            height: 140px !important;
+            top: -90px !important;
+            right: 12px;
         }
     }
-    .about-image-section::before{
-        top: -150px ;
-        right: 0px;
-        width: 200px !important;
-        height: 200px !important;
+    .experience {
+        padding: 10px 9px;
+        width: 250px !important;
+        right: 15px !important;
+        bottom: 20px !important;
+
+        .exp-icon{
+            left: 22px !important;
+            font-size: 24px !important;
+        }
+        .experience-years{
+            font-size: 17px;
+        }
     }
+
     .skills-data{
         .skills-row{
             &li{
@@ -333,8 +466,52 @@
   }
   
   @media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .about-section-heading{
+        & h1{
+            font-size: 30px ;
+        }
+    }
+    .about-section-details .about-me-header {
+        font-size: 27px;
+    }
+    .about-image-section{
+        .my-img{
+            padding: 0px 50px;
+        }
+        
+        &::before{
+            width: 175px !important;
+            height: 175px !important;
+            top: -170px !important;
+            right: 10px;
+        }
+    }
+    .experience {
+        padding: 10px 9px;
+        width: 300px !important;
+        right: 35px !important;
+        bottom: 16px !important;
+
+        .exp-icon{
+            left: 35px !important;
+        }
+        .experience-years{
+            font-size: 20px;
+        }
+    }
+  }
+
+
+  @media only screen and (min-width: 1401px) and (max-width: 1600px) {
     .about-image-section::before{
-        top: -150px ;
-        right: 0px;
+        top: -170px !important;
+        right: 25px;
+    }
+  }
+
+  @media only screen and (min-width: 1601px) and (max-width: 1900px) {
+    .about-image-section::before{
+        top: -170px !important;
+        right: -17px;
     }
   }

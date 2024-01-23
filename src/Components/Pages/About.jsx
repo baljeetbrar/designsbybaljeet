@@ -44,8 +44,8 @@ const About = () => {
             </ul>
             </Col>
             <Col lg={6} className='about-image-section bg-navy'>
-                <div className='my-img'>
-                    <img className='full-width' src="https://i.ibb.co/02DXs5C/IMG-0269.jpg" alt="" />
+                <div className='my-img w-100'>
+                    <img className='img-fluid' src="https://i.ibb.co/02DXs5C/IMG-0269.jpg" alt="About-me-image" />
                 </div>
                 <div className="experience  ">
                     <span className='exp-icon'><LiaCertificateSolid /></span>

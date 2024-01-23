@@ -152,16 +152,24 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         filter: invert(1);
         animation: aboutMini linear 900ms infinite alternate;
         color : $bg-dark;
+        
 
     }
    
 }
 // About Page Animation Section End
+
+.my-img{
+    margin-bottom: 50px;
+    margin-top: -100px;
+    padding: 0px 100px;
+    
+}
 .experience{
     position: absolute;
     padding: 20px 10px;
